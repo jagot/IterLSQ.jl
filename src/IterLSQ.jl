@@ -1,5 +1,7 @@
 module IterLSQ
 
-# package code goes here
+include("diff_variable.jl")
+include("fit.jl")
+include("plot_fit.jl")
 
 end # module
